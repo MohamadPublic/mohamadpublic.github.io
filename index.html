@@ -410,37 +410,29 @@
                 <div class="resume-section-content" data-aos="fade-up">
                     <h2 class="mb-5">Contact</h2>
                     <div class="mb-5">
-                        <form action="https://formspree.io/f/movagnpk" method="post">
+                        <form action="https://formspree.io/f/movagnpk" method="POST">
                             <div class="mb-3 name-div">
                                 <label for="name" class="form-label">Name<span class="required-field">*</span></label>
-                                <input name="name" type="name" class="form-control" id="name"
-                                    aria-describedby="emailHelp">
+                                <input name="name" type="text" class="form-control" id="name" aria-describedby="nameHelp" required>
                                 <div id="name-status" class="status"></div>
                             </div>
                             <div class="mb-3 email-div">
-                                <label for="email" class="form-label">Email address<span
-                                        class="required-field">*</span></label>
-                                <input name="email" type="email" class="form-control" id="email"
-                                    aria-describedby="emailHelp">
+                                <label for="email" class="form-label">Email address<span class="required-field">*</span></label>
+                                <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
                                 <div id="email-status" class="status"></div>
                             </div>
                             <div class="mb-3 message-div">
-                                <label for="message" class="form-label">Message<span
-                                        class="required-field">*</span></label>
-                                <textarea id="message" name="message" type="message" class="form-control"
-                                    aria-describedby="emailHelp" style="resize: none;"></textarea>
+                                <label for="message" class="form-label">Message<span class="required-field">*</span></label>
+                                <textarea id="message" name="message" class="form-control" aria-describedby="messageHelp" style="resize: none;" required></textarea>
                                 <div id="message-status" class="status"></div>
                             </div>
                             <div>
-                                <p class="required-field">
-                                    * Required fields
-                                </p>
+                                <p class="required-field">* Required fields</p>
                             </div>
                             <div class="mb-3">
-                                <button value="Send" type="submit" class="btn btn-primary btn-lg"
-                                    id="submit-button">Submit</button>
+                                <button type="submit" class="btn btn-primary btn-lg" id="submit-button">Submit</button>
                             </div>
-                        </form>
+                        </form>                        
                     </div>
                     <div class="social-icons">
                         <a class="social-icon" href="https://www.linkedin.com/in/mohamad-ahmad-9938771a3/" target="_blank"><i
